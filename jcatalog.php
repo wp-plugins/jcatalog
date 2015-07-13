@@ -5,7 +5,7 @@ Plugin URI: http://joobi.co?l=home_jcatalog.application
 Description: An application to organize and list items, products, images, videos, etc...
 Author: Joobi
 Author URI: http://joobi.co
-Version: 1.10.7.2
+Version: 1.10.8
 */
 
 /** @copyright Copyright (c) 2007-2015 Joobi Limited. All rights reserved.
