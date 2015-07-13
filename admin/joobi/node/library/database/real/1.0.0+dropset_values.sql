@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS `#__dropset_values` (
+  `vid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `did` mediumint(8) unsigned NOT NULL DEFAULT '0',
+  `ordering` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `publish` tinyint(4) NOT NULL DEFAULT '0',
+  `params` text NOT NULL,
+  `modified` int(10) unsigned NOT NULL DEFAULT '0',
+  `level` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rolid` tinyint(3) unsigned NOT NULL DEFAULT '1',
+  `value` varchar(100) NOT NULL,
+  `valuetxt` varchar(50) NOT NULL,
+  `premium` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `namekey` varchar(150) NOT NULL DEFAULT '',
+  `core` tinyint(4) NOT NULL DEFAULT '0',
+  `color` varchar(20) NOT NULL,
+  `parent` varchar(100) NOT NULL,
+  `inputbox` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`vid`),
+  UNIQUE KEY `UK_dropset_values_did_value` (`did`,`value`),
+  UNIQUE KEY `UK_dropset_values_namekey` (`namekey`)
+) ENGINE=InnoDB   /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci*/;

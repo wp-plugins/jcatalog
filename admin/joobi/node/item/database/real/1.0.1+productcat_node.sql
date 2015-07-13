@@ -1,0 +1,2 @@
+/* CONDITIONCOLUMN||productcat_node||site_id */ ALTER TABLE `#__productcat_node`  ADD `site_id` VARCHAR ( 255 )  NOT NULL ;
+/* CONDITIONCOLUMN||productcat_node||numpidsub */ ALTER TABLE `#__productcat_node`  ADD `numpidsub` INT UNSIGNED  DEFAULT '0' NOT NULL ;

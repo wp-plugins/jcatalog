@@ -1,0 +1,1 @@
+/* CONDITIONCOLUMN||product_type||payid */ ALTER TABLE `#__product_type`  ADD `payid` SMALLINT UNSIGNED  DEFAULT '0' NOT NULL ;

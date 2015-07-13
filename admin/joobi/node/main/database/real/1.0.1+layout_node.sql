@@ -1,0 +1,1 @@
+/* CONDITIONCOLUMN||layout_node||custom */ ALTER TABLE `#__layout_node`  ADD `custom` TINYINT UNSIGNED  DEFAULT '0' NOT NULL ;

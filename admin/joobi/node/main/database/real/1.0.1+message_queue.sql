@@ -1,0 +1,2 @@
+/* CONDITIONCOLUMN||message_queue||link */ ALTER TABLE `#__message_queue`  ADD `link` VARCHAR ( 254 )  NOT NULL ;
+ALTER TABLE `#__message_queue`  CHANGE `read` `isread` TINYINT UNSIGNED  DEFAULT '0' NOT NULL ;

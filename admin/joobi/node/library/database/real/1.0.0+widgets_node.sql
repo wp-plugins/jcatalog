@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS `#__widgets_node` (
+  `widgetid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `namekey` varchar(150) NOT NULL,
+  `alias` varchar(150) NOT NULL,
+  `type` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rolid` smallint(5) unsigned NOT NULL DEFAULT '1',
+  `uid` int(10) unsigned NOT NULL DEFAULT '0',
+  `modifiedby` int(10) unsigned NOT NULL DEFAULT '0',
+  `core` tinyint(4) NOT NULL DEFAULT '0',
+  `publish` tinyint(4) NOT NULL DEFAULT '0',
+  `created` int(10) unsigned NOT NULL DEFAULT '0',
+  `modified` int(10) unsigned NOT NULL DEFAULT '0',
+  `framework_type` tinyint(3) unsigned NOT NULL DEFAULT '1',
+  `framework_id` int(10) unsigned NOT NULL DEFAULT '0',
+  `catid` smallint(5) unsigned NOT NULL DEFAULT '0',
+  `params` text NOT NULL,
+  `wid` mediumint(8) unsigned NOT NULL DEFAULT '0',
+  `wgtypeid` mediumint(8) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`widgetid`),
+  UNIQUE KEY `UK_widgets_node_namekey` (`namekey`),
+  KEY `IX_widgets_node_framework_type_publish_core` (`framework_type`,`publish`,`core`)
+) ENGINE=InnoDB   /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci*/;

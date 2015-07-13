@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS `#__credentials_node` (
+  `crdid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `namekey` varchar(150) NOT NULL,
+  `alias` varchar(150) NOT NULL,
+  `type` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `directory` varchar(255) NOT NULL,
+  `username` varchar(200) NOT NULL,
+  `passcode` varchar(200) NOT NULL,
+  `url` varchar(250) NOT NULL,
+  `rolid` smallint(5) unsigned NOT NULL DEFAULT '1',
+  `uid` int(10) unsigned NOT NULL DEFAULT '0',
+  `modifiedby` int(10) unsigned NOT NULL DEFAULT '0',
+  `publish` tinyint(4) NOT NULL DEFAULT '1',
+  `created` int(10) unsigned NOT NULL DEFAULT '0',
+  `modified` int(10) unsigned NOT NULL DEFAULT '0',
+  `params` text NOT NULL,
+  `ordering` int(10) unsigned NOT NULL DEFAULT '1',
+  `crdidtype` smallint(5) unsigned NOT NULL DEFAULT '0',
+  `premium` tinyint(4) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`crdid`)
+) ENGINE=InnoDB   /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci*/;
