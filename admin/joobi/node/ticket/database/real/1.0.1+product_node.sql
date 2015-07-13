@@ -1,0 +1,1 @@
+/* CONDITIONCOLUMN||product_node||site_id */ ALTER TABLE `#__product_node`  ADD `site_id` VARCHAR ( 254 )  NOT NULL ;

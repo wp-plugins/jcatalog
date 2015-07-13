@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rows>
+	<row>
+		<wid>245</wid>
+		<ref_wid>245</ref_wid>
+		<namekey>project.node</namekey>
+		<folder>project</folder>
+		<name>Project</name>
+		<type>150</type>
+		<publish>1</publish>
+		<status>1</status>
+		<params></params>
+		<destination>node</destination>
+		<parent>0</parent>
+		<trans>1</trans>
+		<certify>1</certify>
+		<version>1354</version>
+		<lversion>1354</lversion>
+		<pref>0</pref>
+		<rolid>1</rolid>
+		<install></install>
+		<ordering>402</ordering>
+		<core>1</core>
+		<modified>1436536293</modified>
+		<reload>1</reload>
+		<created>0</created>
+		<showconfig>1</showconfig>
+		<framework>0</framework>
+	</row>	<row>
+		<wid>746</wid>
+		<ref_wid>746</ref_wid>
+		<namekey>mailbox.node</namekey>
+		<folder>mailbox</folder>
+		<name>Mailbox</name>
+		<type>150</type>
+		<publish>1</publish>
+		<status>1</status>
+		<params></params>
+		<destination>node</destination>
+		<parent>0</parent>
+		<trans>1</trans>
+		<certify>0</certify>
+		<version>1819</version>
+		<lversion>1819</lversion>
+		<pref>1</pref>
+		<rolid>1</rolid>
+		<install></install>
+		<ordering>627</ordering>
+		<core>1</core>
+		<modified>1436536303</modified>
+		<reload>1</reload>
+		<created>0</created>
+		<showconfig>1</showconfig>
+		<framework>0</framework>
+	</row>
+</rows>
