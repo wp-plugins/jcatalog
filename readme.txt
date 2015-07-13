@@ -4,7 +4,7 @@ Donate link: http://www.joobi.co/r.php?l=donate
 Tags: catalog, product catalog, directory, online store catalog, e-commerce, e-shop, wp catalog, product list, product display
 Requires at least: 3.3
 Tested up to: 4.2.2
-Stable tag: 1.10.7
+Stable tag: 1.10.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
