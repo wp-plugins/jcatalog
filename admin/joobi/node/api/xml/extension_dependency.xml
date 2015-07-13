@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rows>
+	<row>
+		<wid>187</wid>
+		<ref_wid>187</ref_wid>
+		<namekey>theme.node</namekey>
+		<folder>theme</folder>
+		<name>Theme</name>
+		<type>150</type>
+		<publish>1</publish>
+		<status>1</status>
+		<params></params>
+		<destination>node</destination>
+		<parent>0</parent>
+		<trans>1</trans>
+		<certify>1</certify>
+		<version>4345</version>
+		<lversion>4345</lversion>
+		<pref>0</pref>
+		<rolid>1</rolid>
+		<install></install>
+		<ordering>767</ordering>
+		<core>1</core>
+		<modified>1436535485</modified>
+		<reload>1</reload>
+		<created>0</created>
+		<showconfig>1</showconfig>
+		<framework>0</framework>
+	</row>	<row>
+		<wid>1928</wid>
+		<ref_wid>1928</ref_wid>
+		<namekey>wordpress.node</namekey>
+		<folder>wordpress</folder>
+		<name>WordpPress</name>
+		<type>150</type>
+		<publish>1</publish>
+		<status>1</status>
+		<params></params>
+		<destination>node</destination>
+		<parent>0</parent>
+		<trans>1</trans>
+		<certify>1</certify>
+		<version>227</version>
+		<lversion>227</lversion>
+		<pref>0</pref>
+		<rolid>1</rolid>
+		<install></install>
+		<ordering>4</ordering>
+		<core>1</core>
+		<modified>1436535499</modified>
+		<reload>1</reload>
+		<created>0</created>
+		<showconfig>1</showconfig>
+		<framework>10</framework>
+	</row>
+</rows>

@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `#__ticket_reply` (
+  `tkrid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `authoruid` int(10) unsigned NOT NULL DEFAULT '0',
+  `tkid` int(10) unsigned NOT NULL DEFAULT '0',
+  `created` int(10) unsigned NOT NULL DEFAULT '0',
+  `publish` tinyint(3) unsigned NOT NULL DEFAULT '1',
+  `uid` int(10) unsigned NOT NULL DEFAULT '0',
+  `modified` int(10) unsigned NOT NULL DEFAULT '0',
+  `timeresp` int(10) unsigned NOT NULL DEFAULT '0',
+  `rolid` smallint(5) unsigned NOT NULL DEFAULT '1',
+  `timing` smallint(5) unsigned NOT NULL DEFAULT '0',
+  `wordcount` smallint(5) unsigned NOT NULL DEFAULT '0',
+  `charcount` mediumint(8) unsigned NOT NULL DEFAULT '0',
+  `score` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `comment` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `ip` double unsigned DEFAULT '0',
+  PRIMARY KEY (`tkrid`),
+  KEY `IX_ticket_reply_created` (`created`),
+  KEY `IX_ticket_node_tkid` (`tkid`)
+) ENGINE=InnoDB   /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci*/;
