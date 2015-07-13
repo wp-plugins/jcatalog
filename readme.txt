@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: joobi, elijah45, ohhsomeche, Devoger
+Contributors: joobi, elijah45, ohhsomeche, Devoger, trickster07
 Donate link: http://www.joobi.co/r.php?l=donate
 Tags: catalog, product catalog, directory, online store catalog, e-commerce, e-shop, wp catalog, product list, product display
 Requires at least: 3.3
